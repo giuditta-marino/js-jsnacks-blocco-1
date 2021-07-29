@@ -6,7 +6,7 @@ var numero2 = parseInt(prompt("inserisci un numero"));
 
 // CONTROLLO QUALE DEI DUE NUMERI E' MAGGIORE E STAMPO IL MAGGIORE
 if (numero1 > numero2) {
-  document.getElementById('numeromaggiore').innerHTML = numero1;
+  document.getElementById('numeromaggiore').innerHTML = 'Il numero maggiore è: ' + numero1;
 } else {
-    document.getElementById('numeromaggiore').innerHTML = numero2;
+    document.getElementById('numeromaggiore').innerHTML = 'Il numero maggiore è: ' + numero2;
 }
